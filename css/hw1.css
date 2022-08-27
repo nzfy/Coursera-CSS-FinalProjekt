@@ -1,0 +1,230 @@
+/* body {
+  margin: 15px;
+  padding: 15px;
+}
+
+header {
+  background-color: #299876;
+  background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+  height: 30vh;
+  background-size: cover;
+  padding-top: 10px;
+}
+h1 {
+  font-variant: all-small-caps;
+  text-align: center;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+a {
+  margin-left: 25px;
+  margin-right: 250px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  background-color: rgba(248, 246, 246, 0.24);
+  color: #292222;
+  height: 50px;
+  width: 150px;
+  border-radius: 6px;
+  margin: 1%;
+}
+a.active {
+  background-color: rgb(255, 255, 255);
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+aside.left {
+  width: 14%;
+  background-color: hsl(58, 78%, 25%);
+}
+section.right {
+  padding: 5px;
+  width: 100%;
+}
+h2 {
+  color: #0e0e0e;
+}
+aside > a {
+  width: 160px;
+  height: 100px;
+  margin: 15px;
+  border: 1px solid rgb(21, 19, 19);
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+table {
+  margin-left: 5%;
+  width: 60%;
+  line-height: 30px;
+  font-size: 100%;
+}
+th {
+  color: white;
+  text-align: left;
+  background-color: #919949;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: #b7dd7e 0px 6px 0px;
+}
+td {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #e3f5d4;
+}
+
+th:nth-child(2) {
+  text-align: center;
+}
+
+th:nth-child(3) {
+  text-align: center;
+}
+
+td:nth-child(2) {
+  text-align: center;
+}
+td:nth-child(3) {
+  text-align: center;
+}
+
+tr:hover {
+  opacity: 0.11;
+}
+tr {
+  opacity: 0.8;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+p{
+  font-weight: 600;
+} */
+
+
+/body{
+	padding:1%;
+	margin:1%;
+	font-size: 130%;
+}
+
+header{
+	background-color: #b2a1b2;
+	background-image: url(../images/flywheel.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+	padding: 3px
+}
+h1{
+	text-align: center;
+	color:#EDD1B9;
+	text-transform: uppercase;
+	font-size: 170%;
+}
+nav{
+text-align:center;
+}
+nav a{
+	background-color: rgba(189,167,148,.5);
+	color: 	#586671;
+	display: inline-block;
+	margin: 2%;
+	margin-left: 3%;
+	margin-right:3%;
+	padding: 2%;
+	width: 175px;
+	border-radius: 7px;
+	text-decoration: none;
+}
+
+.active{
+	background: #BDA794;
+	color: #23282d;
+}
+
+.left{
+	background:#BDBC94 ;
+	width:25%;
+	height: 100VH;
+	float: left;
+	display: inline-block;
+}
+.right{
+	background: #ffffff;
+	width: 74%;
+	float: right;
+	display: inline-block;
+	padding-left: 3px;
+}
+img{
+	display: center;
+	width: 60%;
+	margin: 8% 20%;
+	border: 2px solid #000000;
+	display: table-cell;
+	
+}
+
+h2{
+	color: #94aabd;
+	text-transform: uppercase;
+	font-size: 120%;
+}
+
+p{ 
+ font-size: 90%;
+}
+
+/* Week 4 assignment begins here*. Viewed best on large screen */
+
+
+table{
+	margin:0 auto 35px auto ;
+	font-size: 15px;
+	font-family: cursive;
+	text-align: center;
+	width: 80%;
+}
+th{
+	background: #a08065;
+	background: -webkit-linear-gradient(#a08065,#aa8d74,#b39a84,#bda794);
+	color: #bdbc94;
+	border-bottom :3px solid #bd9496;
+	-webkit-border-radius:5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	padding: 10px 35px;
+	
+}
+th:first-child {
+	text-align: left;
+	padding-left: 5px;
+}
+td{
+	background: #D0C1B4;
+	padding: 10px 35px;
+	color: rgb(118,136,151);
+	font-size: 15px;
+	text-shadow: 2px 2px #bd9496;
+	border-radius: 2px;
+
+}
+td:first-child{
+	text-align: left;
+	padding-left: 5px;
+}
+tr{
+	opacity: 0.7;
+}
+tr:hover{
+	opacity:1;
+}
+ 
